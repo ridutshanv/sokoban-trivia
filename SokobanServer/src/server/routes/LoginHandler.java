@@ -32,7 +32,7 @@ public class LoginHandler extends BaseHandler implements HttpHandler {
                 //  If user exists
                 super.sendResponse(exchange, 200, "User " + username + " has successfully logged in.");
             } else {
-                super.sendResponse(exchange, 400, "Sorry! You need to register first.");
+                super.sendResponse(exchange, 400, "Sorry! Incorrect username or password provided.");
             }
         }
     }
