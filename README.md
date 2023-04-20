@@ -1,1 +1,1 @@
-CIS Assignment - A Sokoban game integrated with Smile API.
+CIS Assignment - A take on the classic game, Sokoban - integrated with the Smile API.
