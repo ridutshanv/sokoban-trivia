@@ -106,7 +106,7 @@ public class SmileGUI extends JFrame {
             JOptionPane.showMessageDialog(this, "Correct answer! You pass this Level.");
             SokobanGUI.newLevel();  //  Inform the Sokoban GUI to go to the new level after passing this riddle.
         } else {
-            JOptionPane.showMessageDialog(this, "Incorrect answer! Game over.");
+            JOptionPane.showMessageDialog(this, "Incorrect answer! Try again.");
         }
     }//GEN-LAST:event_btnSubmitActionPerformed
 
